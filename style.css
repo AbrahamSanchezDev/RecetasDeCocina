@@ -1,0 +1,172 @@
+footer {
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("imgs/fondo.jpg");
+    margin: 0;
+}
+
+.icon {
+    z-index: -1;
+    /* position: absolute; */
+    height: 100%;
+}
+
+.iconlink {
+    height: 100%;
+}
+
+.recetas {
+    border: 2px solid rgb(102, 101, 101);
+    height: 100%;
+    width: 55%;
+    border-radius: 10px;
+}
+
+.mainreceta {
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 80%;
+    height: 100%;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+}
+
+.previews {
+
+    display: flex;
+    justify-content: center;
+}
+
+.mainbuttons {
+    width: 30%;
+}
+
+.mainbuttons img {
+    width: 60%;
+}
+
+.title {
+    display: flex;
+    height: 100px;
+    margin-top: 0;
+    text-align: center;
+
+    background-color: rgb(255, 174, 146);
+    color: white;
+
+}
+
+.subtitle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtitle h1 {
+    margin: 0;
+    width: 99%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.mainContent {
+    display: inline;
+    height: 100%;
+}
+
+.mainImage {
+    height: 70%;
+}
+
+.buttonsArea {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 174, 146);
+    height: 30px;
+    margin: 0;
+
+
+}
+
+.horizontal {
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.horizontal li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+li :hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.aboutmain{
+
+    background-color: rgba(215, 235, 247, 0.7);    
+    height: 100%;
+    margin: 0px;
+
+    border-radius: 20px;
+}
+
+.vids{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.vidobj{
+
+    margin: 5px;
+    background-color: rgb(96, 199, 240);
+    background-image: linear-gradient(to top, rgb(96, 199, 240) 0%,rgb(31, 84, 105) 100%);
+    border-radius: 15px;
+
+    padding: 10px;
+    justify-content: center;
+}
+.vidobj:hover{
+    margin: 0px;
+}
+
+h1{
+    color: coral;
+    text-shadow: 1px 1px 15px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.vidobj video{
+    margin: 5px;
+}
