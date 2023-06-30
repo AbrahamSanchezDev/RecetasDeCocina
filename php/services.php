@@ -12,9 +12,8 @@ if ($conn->connect_error) {
     if($conn -> query($sql) === TRUE){
 
         // loggerRegister($conn,$sql);
-        echo "<br>";
-        echo ("Posted!");
-        // header("Location:../index.html");
+    
+        header("Location:../index.html");
         
     }
     else{
