@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 
         // loggerRegister($conn,$sql);
     
-        header("Location:../index.html");
+            header("Location:../index.html");
         
     }
     else{

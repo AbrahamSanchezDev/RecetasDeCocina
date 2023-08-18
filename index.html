@@ -12,56 +12,71 @@
 </head>
 
 <body>
-    <div class="title" >
+    <div class="title">
         <a href="index.html" class="iconlink"><img src="imgs/Logo.png" alt="" srcset="" class="icon clickable"></a>
 
         <div class="subtitle">
-               <h1 onclick="window.location.href='index.html'" class="clickable">RECETAS DE COCINA</h1>
-               <ul class="horizontal">
-                <li><a href="index.html">Home</a></li>
+            <h1 onclick="window.location.href='index.html'" class="clickable">RECETAS DE COCINA</h1>
+            <ul class="horizontal">
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="media.html">Media</a></li>
-                <li><a href="services.html">Services</a></li>                
-                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="about.html">Informacion</a></li>
             </ul>
-        </div>        
+        </div>
+        <p>
+            Búsqueda en google: <input type="search" name="busquedamusica" placeholder="Escribe lo que deseas buscar..."
+                id="elTexto">
+
+            <input type="submit" value="Buscar" id="buscador">
+
+        </p>
     </div>
-    
-    <br>
-    
+
     <div class="mainContent">
 
-
+        <select name="Tipo_Servicio" id="select" class="selector">
+            <option value="Inicio">Inicio</option>
+            <option value="Tecnicas">Tecnicas</option>
+            <option value="Receta1">Arroz Con Huevo Cremoso</option>
+            <option value="Receta2">Tortilla De Papitas Criollas</option>
+            <option value="Receta3">Sandwich Tostado de Huevo,Quesito y Aguacate</option>
+            <option value="Receta4">Torticas de Calentao</option>
+            <option value="Receta5">Ceviche de Frijoles Rojos</option>
+            <option value="Receta6">Sopita De Arroz y Frijol Cabecita Negra</option>
+            <option value="Receta7">Albondigas de Lentejas y Cilantro en Salsa de Tomate</option>
+            <option value="Receta8">Pico De Gallo con Garbanzos,Mango y Aguacate</option>
+            <option value="Receta9">Arroz,Maicito y Arvejas con Vegetales Encurtidos</option>
+            <option value="Receta10">Ensalada Tipo Alemana</option>
+            <option value="Receta11">Salpicon de Atun y Yucas</option>
+            <option value="Receta12">Molde Cerdo Guisado y Platano</option>
+            <option value="Receta13">Tamal en Olla</option>
+            <option value="Receta14">Arroz Cremoso de Pollo Aguacate y Maduritos</option>
+            <option value="Receta15">Helado Rapido de Banano y Panela</option>
+            <option value="Receta16">Dulce de Tomate de Arbol y Cola</option>
+            <option value="Receta17">Enyucado en Sarten</option>
+        </select>
         <div style="display: flex;justify-content: center;align-items: center;" class="mainImage">
-            <div class= "mainbuttons previews" >
-            <img src="imgs/previews.png" alt="" srcset=""id="previews" class="clickable ">
-        </div>
+            <div class="mainbuttons previews">
+                <img src="imgs/previews.png" alt="" srcset="" id="previews" class="clickable ">
+            </div>
 
             <div class="mainreceta">
-                <img src="recetas/1.jpg" alt="" srcset="" width="100%" class="recetas" id="mainImage">
+                <img src="recetas/1.jpg" alt="" srcset="" class="recetas" id="mainImage">
 
             </div>
 
 
             <div class="mainbuttons next">
-            <img src="imgs/next.png" alt="" srcset="" id="next" class="clickable">
-        </div>
-
-        </div>
-
-        <!-- <div class="buttonsArea">
-            <div style="width: 32%;display: flex;justify-content: center;" class="mainbuttons">
-                <img src="previews.png" alt="" srcset="" id="previews" class="clickable ">
+                <img src="imgs/next.png" alt="" srcset="" id="next" class="clickable">
             </div>
 
-            <div style="width: 32%;width: 32%;display: flex;justify-content: center;" class="mainbuttons">
-                <img src="next.png" alt="" srcset="" id="next" class="clickable">
-            </div>
-        </div> -->
+        </div>
 
     </div>
 
     <script src="controls.js"></script>
-
+    <script src="js/index.js"></script>
 </body>
 <footer>
     <p>Todos los copyrights son de Abraham Sanchez Fonseca</p>
